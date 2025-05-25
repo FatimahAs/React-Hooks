@@ -24,7 +24,7 @@ function App() {
     setResult(value1 * value2);
   }
 
-  function mod() {
+  function division() {
     setResult(value1 / value2);
   }
 
@@ -50,7 +50,7 @@ function App() {
         <button className='text-center bg-amber-950 text-white  rounded-xl pointer-coarse text-xl w-8 h-8' onClick={add}> +</button>
         <button className="text-center bg-amber-950 text-white  rounded-xl pointer-coarse text-xl w-8 h-8" onClick={subtract}> -</button>
         <button className="text-center bg-amber-950 text-white  rounded-xl pointer-coarse text-xl w-8 h-8" onClick={multiply}> *</button>
-        <button className="text-center bg-amber-950 text-white  rounded-xl pointer-coarse text-xl w-8 h-8" onClick={mod}> /</button>
+        <button className="text-center bg-amber-950 text-white  rounded-xl pointer-coarse text-xl w-8 h-8" onClick={division}> /</button>
       </div>
 
       <div className='text-center mt-10'>
